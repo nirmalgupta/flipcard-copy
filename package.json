@@ -1,6 +1,6 @@
 {
   "name": "flipcard-copy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Lit-based web component for displaying interactive flipcard images with grid support.",
   "main": "dist/flipcard-viewer.js",
   "module": "dist/flipcard-viewer.js",
@@ -47,10 +47,10 @@
   },
   "devDependencies": {
     "@open-wc/testing": "^4.0.0",
-    "@web/dev-server": "^0.4.6",
-    "@web/test-runner": "^0.20.0",
     "@rollup/plugin-node-resolve": "^16.0.1",
     "@rollup/plugin-terser": "^0.4.4",
+    "@web/dev-server": "^0.4.6",
+    "@web/test-runner": "^0.20.0",
     "lit": "^3.2.1",
     "rimraf": "^6.0.1",
     "rollup": "^4.37.0",
