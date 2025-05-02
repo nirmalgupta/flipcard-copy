@@ -1,6 +1,6 @@
 {
   "name": "flipcard-copy1",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "A Lit-based web component for displaying interactive flipcard images with grid support.",
   "main": "dist/flipcard-viewer.js",
   "module": "dist/flipcard-viewer.js",
@@ -36,7 +36,7 @@
     "publish:patch": "up=--patch yarn publish:up",
     "publish:minor": "up=--minor yarn publish:up",
     "publish:major": "up=--major yarn publish:up",
-    "publish:up": "yarn build  && yarn version $up --message 'Bump version to $(npm pkg get version)' && yarn publish --non-interactive --tag $(npm pkg get version) && git push origin main --tags"
+    "publish:up": "yarn build  && yarn version $up --message 'Bump version to $(npm pkg get version)' && yarn publish --non-interactive && git push origin main --tags"
   },
   "dependencies": {
     "exifr": "^7.1.3"
